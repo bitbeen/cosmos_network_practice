@@ -12,7 +12,7 @@
     * [Context](cosmos_sdk/the-basics/context.md)
     * [Result](cosmos_sdk/the-basics/result.md)
     * [Handler](cosmos_sdk/the-basics/handler.md)
-    * Tx
+    * [Tx](cosmos_sdk/the-basics/tx.md)
     * BaseApp
     * Execution
     * Conclusion
