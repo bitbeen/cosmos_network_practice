@@ -7,10 +7,14 @@
   * [Core](cosmos_sdk/core.md)
   * [The Basics](cosmos_sdk/the-basics.md)
     * [Messages](cosmos_sdk/the-basics/messages.md)
+    * [KVStore](cosmos_sdk/the-basics/kvstore.md)
+    * Handlers
   * [Transactions](cosmos_sdk/transactions.md)
   * [Modules](cosmos_sdk/modules.md)
   * [ABCI](cosmos_sdk/abci.md)
   * [Basecoin](cosmos_sdk/basecoin.md)
   * [Clients](cosmos_sdk/clients.md)
 * [验证人](验证人/README.md)
+
+
 
