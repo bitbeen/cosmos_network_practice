@@ -11,6 +11,11 @@
     * [Handlers](cosmos_sdk/the-basics/handlers.md)
     * [Context](cosmos_sdk/the-basics/context.md)
     * [Result](cosmos_sdk/the-basics/result.md)
+    * [Handler](cosmos_sdk/the-basics/handler.md)
+    * Tx
+    * BaseApp
+    * Execution
+    * Conclusion
   * [Transactions](cosmos_sdk/transactions.md)
   * [Modules](cosmos_sdk/modules.md)
   * [ABCI](cosmos_sdk/abci.md)
