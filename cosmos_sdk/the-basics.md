@@ -38,7 +38,7 @@ type Msg interface {
 ```
 Msg允许messages定义基本的验证，和需要签名的数据，以及谁会去签名。
 
-```
+```golang
 // MsgSend to send coins from Input to Output
 type MsgSend struct {
 	From   sdk.AccAddress `json:"from"`
@@ -49,6 +49,35 @@ type MsgSend struct {
 // Implements Msg.
 func (msg MsgSend) Type() string { return "bank" }
 
+// Implements Msg. JSON encode the message.
+func (msg MsgSend) GetSignBytes() []byte {
+	bz, err := json.Marshal(msg)
+	if err != nil {
+		panic(err)
+	}
+	return bz
+}
+
+// Implements Msg. Return the signer.
+func (msg MsgSend) GetSigners() []sdk.AccAddress {
+	return []sdk.AccAddress{msg.From}
+}
+
+
+// Implements Msg. Ensure the addresses are good and the
+// amount is positive.
+func (msg MsgSend) ValidateBasic() sdk.Error {
+	if len(msg.From) == 0 {
+		return sdk.ErrInvalidAddress("From address is empty")
+	}
+	if len(msg.To) == 0 {
+		return sdk.ErrInvalidAddress("To address is empty")
+	}
+	if !msg.Amount.IsPositive() {
+		return sdk.ErrInvalidCoins("Amount is not positive")
+	}
+	return nil
+}
 ```
 
 ## KVStore
