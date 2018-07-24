@@ -4,13 +4,6 @@
 
 
 
-
-
-现在我们有了消息类型和存储接口，我们可以通过handler定义我们自己的状态转换函数
-
-## Conetext
-SDK通过`Context`传播函数的公共信息，Context限制了基于对象功能键的KVStore访问。只有已明确访问密钥的处理程序才能访问相应的存储。
-
 ## Result
 
 ## Handler

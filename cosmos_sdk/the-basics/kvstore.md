@@ -35,7 +35,7 @@ type KVStore interface {
 
 当前KVStore的主要实现是IAVL store，未来将会支持Merkle KVStores, like Ethereum's radix trie.
 
-我们很快就会看到，应用程序有许多不同的KVStore，每个都有不同的名称和不同的关注点。对store的访问由对象进行控制，在应用程序启动期间必须将其授予处理程序的权限。
+我们很快就会看到，应用程序有许多不同的KVStore，每个都有不同的名称和不同的关注点。对store的访问由需要key，在应用程序启动期间必须将其授予处理程序分配key
 
 
 
