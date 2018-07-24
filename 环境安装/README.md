@@ -9,7 +9,6 @@
 
 ```
 ➜  ~ gaiad init gen-tx --name=gcoin --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/gcoin
-➜  ~ gaiad init gen-tx --name=hcoin --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/hcoin
 {
   "app_message": {
     "secret": "require clean energy unlock prefer fix volume hurdle hope belt code fantasy insane lounge attitude abandon"
@@ -35,6 +34,9 @@
     }
   }
 }
+
+➜  ~ gaiad init gen-tx --name=hcoin --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/hcoin
+
 {
   "app_message": {
     "secret": "depth wait pond salute mule artwork point speak ride change emerge art robust erode arena abandon"
@@ -67,13 +69,15 @@
 
 ```
 ➜  ~ gaiad init --gen-txs --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/gcoin --chain-id=ghcoin
-➜  ~ gaiad init --gen-txs --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/hcoin --chain-id=ghcoin
 
 {
   "chain_id": "ghcoin",
   "node_id": "61bb02ef2ef32cc35fb22031d073357bc18e0bca",
   "app_message": null
 }
+
+➜  ~ gaiad init --gen-txs --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/hcoin --chain-id=ghcoin
+
 {
   "chain_id": "ghcoin",
   "node_id": "086c4931dbab706d1188068bbb7386ecc6c284a9",
