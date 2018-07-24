@@ -38,6 +38,18 @@ type Msg interface {
 ```
 Msg允许messages定义基本的验证，和需要签名的数据，以及谁会去签名。
 
+```
+// MsgSend to send coins from Input to Output
+type MsgSend struct {
+	From   sdk.AccAddress `json:"from"`
+	To     sdk.AccAddress `json:"to"`
+	Amount sdk.Coins   `json:"amount"`
+}
+
+// Implements Msg.
+func (msg MsgSend) Type() string { return "bank" }
+
+```
 
 ## KVStore
 
