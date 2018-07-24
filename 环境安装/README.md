@@ -7,7 +7,7 @@
 
 ## 创建创世文件
 
-```
+```shell
 ➜  ~ gaiad init gen-tx --name=gcoin --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/gcoin
 {
   "app_message": {
@@ -67,7 +67,7 @@
 
 ## 初始化创世交易
 
-```
+```shell
 ➜  ~ gaiad init --gen-txs --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/gcoin --chain-id=ghcoin
 
 {
@@ -142,7 +142,8 @@
 ## 转账
 
 * 链G上的用户g向链H上的用户h转账666gcoinToken
-```
+
+```shell
 
 //第一次转账，向链H的用户h转账333个gcoinToken
 ➜  ~ gaiacli send --amount=333gcoinToken --to=38F5CDA4903EC8ECA6DC124C2FC1FD5A460E0EBA  --name=gcoin --chain-id=ghcoin
@@ -178,7 +179,7 @@ Committed at block 526. Hash: AECE23DCC13BD1F777642DB6751F8416D38AB302
 ```
 ## 再次查询余额
 * 链H的上用户h的余额：
-```
+```shell
 ➜  ~ gaiacli account 38F5CDA4903EC8ECA6DC124C2FC1FD5A460E0EBA
 {
   "type": "6C54F73C9F2E08",
@@ -208,7 +209,7 @@ Committed at block 526. Hash: AECE23DCC13BD1F777642DB6751F8416D38AB302
 ```
 * 链G上用户g的地址：
 
-```
+```shell
 ➜  ~ gaiacli account B7661BE212D6126D83A6F907CE6042E1C4883361
 {
   "type": "6C54F73C9F2E08",
