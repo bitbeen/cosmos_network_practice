@@ -13,9 +13,9 @@
     * [Result](cosmos_sdk/the-basics/result.md)
     * [Handler](cosmos_sdk/the-basics/handler.md)
     * [Tx](cosmos_sdk/the-basics/tx.md)
-    * BaseApp
-    * Execution
-    * Conclusion
+    * [BaseApp](cosmos_sdk/the-basics/baseapp.md)
+    * [Execution](cosmos_sdk/the-basics/execution.md)
+    * [Conclusion](cosmos_sdk/the-basics/conclusion.md)
   * [Transactions](cosmos_sdk/transactions.md)
   * [Modules](cosmos_sdk/modules.md)
   * [ABCI](cosmos_sdk/abci.md)
