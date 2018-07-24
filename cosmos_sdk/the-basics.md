@@ -79,6 +79,7 @@ func (msg MsgSend) ValidateBasic() sdk.Error {
 	return nil
 }
 ```
+ValidatBasic会自动被SDK调用
 
 ## KVStore
 
