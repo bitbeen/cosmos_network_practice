@@ -1,6 +1,6 @@
 # 环境安装
 
-```
+```shell
 ➜  ~ gaiad version 
 0.17.2-187be1a5
 ```
