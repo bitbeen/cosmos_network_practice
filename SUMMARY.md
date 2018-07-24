@@ -1,7 +1,6 @@
 # Summary
-
 * [简介](简介/README.md)
-* [环境安装](huan-jing-an-zhuang.md)
-* [cosmos SDK](cosmos-sdk.md)
-* [验证人](yan-zheng-ren.md)
+* [环境安装](环境安装/README.md)
+* [cosmos SDK](cosmos_sdk/README.md)
+* [验证人](验证人/README.md)
 
