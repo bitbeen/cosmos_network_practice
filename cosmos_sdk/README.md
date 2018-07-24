@@ -18,7 +18,7 @@ cosmos sdk包含很多不痛级别的应用,ABCI app、BaseApp、BasecoinApp和�
 
 ### ABCI app
 
-基本的ABCI接口允许tendermint使用事务驱动应用程序状态机.
+基本的ABCI接口允许tendermint使用`transaction`和`Block`驱动应用程序状态机.
 
 
 ### Base app
