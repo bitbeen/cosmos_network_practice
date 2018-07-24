@@ -1,5 +1,14 @@
 # 环境安装
+
+```
+➜  ~ gaiad version 
+0.17.2-187be1a5
+➜  ~ 
+
+```
+
 ## 创建创世文件
+
 ```
 ➜  ~ gaiad init gen-tx --name=gcoin --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/gcoin
 ➜  ~ gaiad init gen-tx --name=hcoin --home=/Users/wen/gopath/src/github.com/cosmos/cosmos-sdk/testnet/hcoin
