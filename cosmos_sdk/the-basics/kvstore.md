@@ -31,7 +31,7 @@ type KVStore interface {
  }
 
 ```
-> 如果Key为nil,程序会进入恐慌
+> note 如果Key为nil,程序会进入恐慌
 
 当前KVStore的主要实现是
 

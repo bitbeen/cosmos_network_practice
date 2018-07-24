@@ -77,3 +77,4 @@ func (msg MsgSend) ValidateBasic() sdk.Error {
 ```
 ValidateBasic会自动被SDK调用
 
+
