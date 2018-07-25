@@ -9,7 +9,7 @@ ABCI socket连接：
 - 内存池广播时的交易验证
 - 运行提交区块的共识引擎
 - 用于查询应用状态
-
+![ABCI](/assets/ABIC)
 ## initChain
 ## BeginBlock'
 ## EndBlock
