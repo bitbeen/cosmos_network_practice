@@ -34,7 +34,7 @@ ABCI socket连接：
 ## App Implementation
 
 ## initChain
-## BeginBlock'
+## BeginBlock
 ## EndBlock
 ## Commit
 ## Query
