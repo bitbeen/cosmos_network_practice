@@ -23,6 +23,16 @@ ABCI socket连接：
  - grpc和async raw bytes
 - 区块协议
 
+## ABCI Server Implementation
+要在不同的语言中使用ABCI,这个语言要实现ABCI server.
+- a socket server
+- a handler for ABCI Messages
+- 实现Application的接口
+
+> dummy 和 counter
+
+## App Implementation
+
 ## initChain
 ## BeginBlock'
 ## EndBlock
